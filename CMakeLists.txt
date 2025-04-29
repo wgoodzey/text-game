@@ -33,3 +33,9 @@ endif()
 # Link include directory to the target
 target_include_directories(${PROJECT_NAME} PRIVATE ${INCLUDE_DIR})
 
+# Enable Wall and Werror
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Werror)
+elseif(MSVC)
+    target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX)
+endif()

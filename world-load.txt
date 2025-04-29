@@ -1,0 +1,20 @@
+ROOM 1
+name: Kitchen
+description: A tidy, clean kitchen.
+exits: 2 3
+
+ROOM 2
+name: Hallway
+description: A narrow hallway with a dusty rug.
+exits: 1 4
+
+ROOM 3
+name: Pantry
+description: Shelves full of old canned food.
+exits: 1
+
+ROOM 4
+name: Living Room
+description: A cozy living room with a fireplace.
+exits: 2
+
