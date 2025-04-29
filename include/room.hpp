@@ -1,5 +1,8 @@
+#pragma once
+
 #include <string>
 #include <vector>
+
 typedef struct room {
 	int room_id;
 	std::string name;

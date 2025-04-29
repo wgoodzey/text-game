@@ -1,3 +1,5 @@
+#pragma once
+
 #include "room.hpp"
 #include <unordered_map>
 
