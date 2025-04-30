@@ -4,11 +4,9 @@
 
 int main (int argc, char *argv[]) {
 	World w;
-	w = parse_world("./world-load.txt");
+	w = parseWorld("./world-load.txt");
 
-	for (auto i : w.rooms) {
-		std::cout << i.first << ":" << i.second.name << std::endl;
-	}
+	listAllRooms(w);
 
 	return 0;
 }

@@ -8,4 +8,4 @@ typedef struct world {
 	std::unordered_map<int, Room> rooms;
 } World;
 
-void init_world(World w);
+void listAllRooms(World w);
