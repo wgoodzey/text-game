@@ -1,20 +1,55 @@
 ROOM 1
-name: Kitchen
-description: A tidy, clean kitchen.
-exits: SOUTH 2 EAST 3
+NAME Kitchen
+DESC A tidy, clean kitchen.
+EXIT SOUTH 2 EAST 3
 
 ROOM 2
-name: Hallway
-description: A narrow hallway with a dusty rug.
-exits: NORTH 1 EAST 4
+NAME Hallway
+DESC A narrow hallway with a dusty rug.
+EXIT NORTH 1 EAST 4
 
 ROOM 3
-name: Pantry
-description: Shelves full of old canned food.
-exits: WEST 1
+NAME Pantry
+DESC Shelves full of old canned food.
+EXIT WEST 1
 
 ROOM 4
-name: Living Room
-description: A cozy living room with a fireplace.
-exits: WEST 2
+NAME Living Room
+DESC A cozy living room with a fireplace.
+EXIT WEST 2
+
+ROOM 5
+NAME Study
+DESC A dimly lit room filled with old books and a flickering desk lamp.
+EXIT WEST 4 SOUTH 6
+
+ROOM 6
+NAME Basement
+DESC The air is damp and musty. Old tools hang from the walls.
+EXIT NORTH 5
+
+ROOM 7
+NAME Bedroom
+DESC A spacious bedroom with a four-poster bed and a cracked window.
+EXIT SOUTH 8 EAST 2
+
+ROOM 8
+NAME Bathroom
+DESC White tiles line the walls. A mirror is fogged over as if recently used.
+EXIT NORTH 7
+
+ROOM 9
+NAME Attic
+DESC Dust motes float in the beams of light piercing the slatted roof.
+EXIT DOWN 1
+
+ROOM 10
+NAME Garden
+DESC Overgrown weeds and the scent of lavender fill this enclosed garden. A rope ladder leads up to something hidden in the trees.
+EXIT NORTH 4 WEST 3 UP 11
+
+ROOM 11
+NAME Treehouse
+DESC A small wooden treehouse nestled among the branches. It's quiet, with a clear view of the surrounding area.
+EXIT DOWN 10
 

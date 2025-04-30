@@ -22,7 +22,7 @@ static const std::unordered_map<std::string, Direction> mapping = {
 	{ "DOWN",  Direction::DOWN  },
 };
 
-inline Direction stringToDirection(const std::string& str) {
+inline Direction stringToDirection(const std::string &str) {
 	auto it = mapping.find(str);
 	if (it != mapping.end()) {
 		return it->second;

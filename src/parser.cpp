@@ -4,12 +4,12 @@
 #include <sstream>
 #include <unordered_map>
 
-bool startsWith(const std::string& str, const std::string& prefix) {
+bool startsWith(const std::string &str, const std::string &prefix) {
   return str.size() >= prefix.size() 
 		&& str.compare(0, prefix.size(), prefix) == 0;
 }
 
-World parseWorld(const std::string& filename) {
+World parseWorld(const std::string &filename) {
 	World w;
 	std::ifstream file(filename);
 	std::string line;
@@ -27,15 +27,15 @@ World parseWorld(const std::string& filename) {
 			currentRoom = Room();
 			currentRoomId = std::stoi(line.substr(5));
 		}
-		else if (startsWith(line, "name: ")) {
-			currentRoom.name = line.substr(6);
+		else if (startsWith(line, "NAME ")) {
+			currentRoom.name = line.substr(5);
 		}
-		else if (startsWith(line, "description: ")) {
-			currentRoom.description = line.substr(13);
+		else if (startsWith(line, "DESC ")) {
+			currentRoom.description = line.substr(5);
 		}
 		
-		else if (startsWith(line, "exits: ")) {
-			std::string exitsStr = line.substr(7);
+		else if (startsWith(line, "EXIT ")) {
+			std::string exitsStr = line.substr(5);
 			std::istringstream ss(exitsStr);
 			std::string dirStr;
 			int exitId;
