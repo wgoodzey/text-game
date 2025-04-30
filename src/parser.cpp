@@ -5,8 +5,8 @@
 #include <unordered_map>
 
 bool startsWith(const std::string& str, const std::string& prefix) {
-    return str.size() >= prefix.size() 
-			&& str.compare(0, prefix.size(), prefix) == 0;
+  return str.size() >= prefix.size() 
+		&& str.compare(0, prefix.size(), prefix) == 0;
 }
 
 World parseWorld(const std::string& filename) {
@@ -49,12 +49,11 @@ World parseWorld(const std::string& filename) {
 				}
 			}
 		}
-
 	}
 
 	// Save last room after EOF
 	if (currentRoomId != -1) {
-			w.rooms[currentRoomId] = currentRoom;
+		w.rooms[currentRoomId] = currentRoom;
 	}
 
 	return w;
