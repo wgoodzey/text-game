@@ -1,19 +1,7 @@
-# 🛠 C/C++ Project Directory Generator
+# 🛠 Text Adventure Game
 
-This is a generated starter template for C and C++ development. This project
-uses `cmake`.
-
-## Structure
-
-```
-text-game/
-├── src/
-├── include/
-├── build/
-├── CMakeLists.txt
-├── Makefile
-└── README.md
-```
+This is a C++ project that is designed to load a world from a TXT file, parsing
+room data such as title, description, as well as adjacent rooms.
 
 ## Usage
 
@@ -36,12 +24,8 @@ make clean
 
 - `build/text-game`
 
-Only the binaries relevant to existing source files will be built.
-
 ## Requirements
 
 - `gcc`, `g++`
 - `make`
 - `cmake`
-- `bash` to run this setup script
-
