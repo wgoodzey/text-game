@@ -36,6 +36,13 @@ int main(int argc, char *argv[]) {
 		std::getline(std::cin, input);
 		input = toUpper(input);
 
+		if (input == "QUIT" || input == "EXIT") {
+			break;
+		}
+
+		if (input == "HELP") {
+		}
+
 		try {
 			dir = stringToDirection(input);
 			if (room->exits.find(dir) != room->exits.end()) {
