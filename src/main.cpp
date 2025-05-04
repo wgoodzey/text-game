@@ -20,6 +20,11 @@ int main(int argc, char *argv[]) {
 	Room* room = &w.rooms[1];
 	w.current_room = 1;
 
+	std::cout << "Welcome to your text adventure!\n" << 
+		"Press ENTER to continue" << std::endl;
+
+	std::getline(std::cin, input);
+
 	while (true) {
 		std::cout << "\nYou are in " << room->name << "\n";
 		std::cout << room->description << "\n";
@@ -41,6 +46,11 @@ int main(int argc, char *argv[]) {
 		}
 
 		if (input == "HELP") {
+			std::cout << "Available commands:\n";
+			std::cout << "- move with -> north, south, east, or west\n";
+			std::cout << "- help       : Show this help message\n";
+			std::cout << "- quit       : Exit the game\n";
+			continue;
 		}
 
 		try {
