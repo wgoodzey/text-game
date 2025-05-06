@@ -1,0 +1,199 @@
+ROOM 1
+NAME SpongeBob's House
+DESC The exterior of SpongeBob’s famous pineapple house is bright and quirky, with a perfectly trimmed lawn shaped like jellyfish. Bubbles float around lazily, and the salty scent of the ocean fills the current. A stone path leads to the round wooden door, welcoming visitors into his whimsical underwater world.
+EXIT EAST 2 SOUTH 3 WEST 11
+
+ROOM 2
+NAME Squidward's House - Entrance
+DESC Squidward’s moai-shaped home stands stiffly between its neighbors, exuding artistic pretension. The walkway is made of neat stone slabs, and the faint sound of a clarinet drifts out through the shuttered windows.
+EXIT WEST 1 SOUTH 4 EAST 12
+
+ROOM 3
+NAME Patrick's House
+DESC Patrick's home looks like nothing more than a giant rock on the sand, but a gentle creak reveals it’s a surprisingly functional lid. Beneath it lies a cozy, dimly-lit space that smells faintly of kelp chips. Starfish-shaped footprints lead around the area, and a suspiciously well-worn trail leads back toward SpongeBob’s yard.
+EXIT NORTH 1 EAST 4 WEST 13
+
+ROOM 4
+NAME Conch Street - Neighborhood Center
+DESC This is the heart of the Conch Street neighborhood, where three iconic homes stand within view of each other. Jellyfish occasionally drift overhead, and crooked mailboxes sway in the current beside sandy footpaths.
+EXIT NORTH 2 WEST 3 SOUTH 5 EAST 10
+
+ROOM 5
+NAME Outside the Krusty Krab
+DESC A sandy clearing with a worn trail leads to the legendary Krusty Krab. The scent of frying patties wafts from inside the boat-shaped building. A faded sign promises “The Best Burgers Under the Sea.”
+EXIT NORTH 4 EAST 6 WEST 14
+
+ROOM 6
+NAME Outside the Chum Bucket
+DESC Across from the Krusty Krab, the Chum Bucket looms with industrial gloom. Its metal door hisses open on occasion, revealing eerie flashes of green light. The silence here feels unnerving.
+EXIT WEST 5 NORTH 7 EAST 15
+
+ROOM 7
+NAME Jellyfish Fields - Outer Edge
+DESC Gentle kelp-covered hills ripple across the seabed, buzzing faintly with jellyfish movement. A net and goggles lie abandoned on a rock, hinting at SpongeBob’s recent jellyfishing adventure.
+EXIT SOUTH 6 EAST 8
+
+ROOM 8
+NAME Sandy's Treedome Entrance
+DESC A giant glass dome looms ahead, housing a dry, earthy habitat. The airlock door rumbles ominously, separating the aquatic world from the land within. A metal panel blinks as it scans for entry.
+EXIT WEST 7 SOUTH 9 EAST 16
+
+ROOM 9
+NAME Goo Lagoon Beachfront
+DESC The lagoon is bustling with underwater beachgoers. Colorful towels are spread across the sand, kelp dogs sizzle on a nearby grill, and volleyballs float between seaweed nets.
+EXIT NORTH 8
+
+ROOM 10
+NAME Boating School Courtyard
+DESC A coral-lined path leads up to the gates of Mrs. Puff's Boating School. Faint engine revs and the screech of rubber echo in the distance as students fail their driving tests.
+EXIT WEST 4 EAST 17 SOUTH 27
+
+ROOM 11
+NAME SpongeBob’s Living Room
+DESC SpongeBob’s living room is whimsically cluttered with nautical-themed furniture. A life preserver frames the porthole window, and a giant conch shell houses a television. The room is warm and cozy, with a diving bell chandelier casting soft shadows across the coral-pink walls.
+EXIT EAST 1 NORTH 18 UP 19 SOUTH 37
+
+ROOM 12
+NAME Squidward’s Living Room
+DESC Abstract art and modern furniture give this room a minimalist, cultured vibe. A single clarinet stand holds court in the center, and everything smells faintly of expensive ink.
+EXIT WEST 2 NORTH 19
+
+ROOM 13
+NAME Patrick’s Main Room
+DESC The sandy floor is scattered with comic books and half-eaten snacks. A stone chair and crude television form the main attractions, while a single lamp glows weakly in the corner. It’s messy but comfortable in its own bizarre way.
+EXIT EAST 3 NORTH 20
+
+ROOM 14
+NAME Krusty Krab - Dining Area
+DESC The interior of the Krusty Krab hums with activity. Red boat-shaped booths line the walls, and hungry customers wait eagerly for their Krabby Patties as nautical portholes frame the outside ocean.
+EXIT EAST 5 NORTH 21
+
+ROOM 15
+NAME Chum Bucket - Main Hall
+DESC Stark metal walls echo every movement inside this cold, empty fast food failure. Karen flickers quietly on a nearby monitor while dust gathers on the counter.
+EXIT WEST 6 NORTH 22
+
+ROOM 16
+NAME Sandy’s Treedome - Interior
+DESC Inside the dome, dry land stretches around a tall oak tree. Sandy’s picnic table, workout gear, and a few Texan souvenirs are scattered across the neatly mowed grass. The air smells like pine.
+EXIT WEST 8 DOWN 23 NORTH 35
+
+ROOM 17
+NAME Boating School - Lobby
+DESC A tiled lobby with plastic chairs, boating posters, and an impatient receptionist. Saloon doors swing open toward the testing rooms, and nervous students shuffle in and out.
+EXIT WEST 10 SOUTH 24 EAST 38
+
+ROOM 18
+NAME SpongeBob’s Kitchen
+DESC Stainless steel counters gleam under bright lighting. Spatula racks, recipe cards, and half-prepped meals cover every surface, evidence of SpongeBob’s boundless cooking energy.
+EXIT SOUTH 11 EAST 19
+
+ROOM 19
+NAME SpongeBob’s Bedroom
+DESC SpongeBob’s bedroom is a cozy and whimsical space located at the top of his pineapple home. His bed is shaped like a miniature pirate ship, complete with sails and a life preserver pillow. A porthole window offers a dreamy view of Jellyfish Fields, and nautical posters line the curved walls. A diving suit stands in the corner, and alarm clocks of every shape and size sit ready to wake him up for work. The whole room smells faintly of soap and sea salt.
+EXIT DOWN 11 WEST 18 SOUTH 12
+
+ROOM 20
+NAME Patrick’s Bedroom
+DESC A sand-formed bed leans against the wall, surrounded by snack wrappers, empty ice cream cartons, and a pillow that looks like a rock. Seashells are scattered everywhere.
+EXIT SOUTH 13
+
+ROOM 21
+NAME Krusty Krab - Kitchen
+DESC A clanging kitchen filled with sizzling grease and the secret aroma of Krabby Patties. Cooking utensils clatter as a spatula flies through the air.
+EXIT SOUTH 14
+
+ROOM 22
+NAME Plankton’s Laboratory
+DESC Monitors line the walls displaying complex diagrams of failed Krabby Patty thefts. Test tubes bubble ominously, and Karen's voice hums with sarcastic commentary.
+EXIT SOUTH 15
+
+ROOM 23
+NAME Sandy’s Basement Lab
+DESC High-tech computers and rocket blueprints dominate this lab beneath the treedome. Squirrel suits hang on racks beside bubbling beakers and tools.
+EXIT UP 16
+
+ROOM 24
+NAME Driving Course - Entry Loop
+DESC The track begins here, outlined by orange cones and paint-smeared signs. Scratches on the sea floor tell tales of unfortunate boating students.
+EXIT NORTH 17 EAST 25
+
+ROOM 25
+NAME Driving Course - Final Curve
+DESC A sharp bank in the underwater track sweeps around coral rocks. A dummy boatmobile is flipped upside down, caught in netting.
+EXIT WEST 24 NORTH 26
+
+ROOM 26
+NAME Driving Course - Finish Line
+DESC A giant checkered flag stands triumphantly in the sand. A sign that reads “Try Again?” in cracked paint hints at student failure rates.
+EXIT SOUTH 25
+
+ROOM 27
+NAME Shady Shoals Retirement Home
+DESC Shuffleboard courts and gently swaying seaweed decorate this peaceful community. Elder fish discuss their superhero days in soft voices.
+EXIT EAST 28 NORTH 10
+
+ROOM 28
+NAME Shady Shoals Lounge
+DESC Mermal Man and Barnacle Boy nap loudly in front of a buzzing old television. Worn couches and faded posters fill the room.
+EXIT WEST 27 DOWN 29
+
+ROOM 29
+NAME Mermalair - Main Chamber
+DESC Beneath Shady Shoals lies the secret base of Bikini Bottom’s oldest heroes. Glowing panels and oversized buttons line the walls, watching everything.
+EXIT UP 28 SOUTH 30
+
+ROOM 30
+NAME Mermalair - Villain Vault
+DESC Tall glass tubes hold frozen villains, suspended in containment fields. Lights flicker on the walls, tracking their every move.
+EXIT NORTH 29
+
+ROOM 31
+NAME Rock Bottom Bus Stop
+DESC The seafloor dips ominously here. A flickering bus sign displays incomprehensible symbols, and eerie silence hangs in the depths.
+EXIT NORTH 32
+
+ROOM 32
+NAME Rock Bottom Alley
+DESC Cramped and dark, this alley is filled with strange noises and glowing graffiti. The walls seem to lean in as you walk.
+EXIT SOUTH 31
+
+ROOM 33
+NAME Barg’N-Mart - Entrance
+DESC A sprawling retail complex with automatic doors that wheeze open. Loudspeakers advertise deep discounts on bizarre underwater goods.
+EXIT WEST 10 EAST 34
+
+ROOM 34
+NAME Barg’N-Mart - Home Goods Aisle
+DESC This aisle bursts with inflatable couches, kelp-scented candles, and stacks of oddly shaped cookware. A mop bucket leaks in the corner.
+EXIT WEST 33
+
+ROOM 35
+NAME Sandy’s Treehouse
+DESC At the top of the oak tree inside the treedome is Sandy's cozy cabin. Bookshelves, gadgets, and Texas memorabilia give it the warmth of a true Southern hideaway.
+EXIT SOUTH 16
+
+ROOM 36
+NAME Bubble Buddy's House
+DESC Everything inside glimmers like soap—tables, chairs, even the doorbell. The floor squishes softly with each step but never breaks.
+EXIT SOUTH 4
+
+ROOM 37
+NAME SpongeBob’s Library
+DESC Neatly organized shelves overflow with jellyfishing guides, comic books, and boating school manuals. A hammock swings between two coral columns in the corner.
+EXIT NORTH 11
+
+ROOM 38
+NAME Boating School - Testing Room
+DESC Rows of desks face a chalkboard covered in diagrams. Nervous students clutch their steering wheels while Mrs. Puff prepares to grade.
+EXIT WEST 17
+
+ROOM 39
+NAME Downtown Bikini Bottom
+DESC Bright neon signs flash above coral towers, and a chaos of honking boating traffic fills the streets. Advertisements blare from loudspeakers.
+EXIT NORTH 4 EAST 40
+
+ROOM 40
+NAME Bikini Bottom Jail
+DESC Heavy iron bars line the walls of this underwater jail. Wanted posters flap lazily, and a lone guard naps in the corner beside the check-in desk.
+EXIT WEST 39

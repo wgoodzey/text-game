@@ -11,10 +11,22 @@ std::string toUpper(const std::string &str) {
 	return result;
 }
 
+void printHelp() {
+	std::cout << "Available commands:\n"
+		<< "- move with -> north, south, east, or west\n"
+		<< "- help       : Show this help message\n"
+		<< "- quit       : Exit the game\n";
+}
+
 int main(int argc, char *argv[]) {
+	std::string worldFile = "world-load.txt"; // Default file
+
+	if (argc > 1) {
+			worldFile = argv[1]; // Use argument if provided
+	}
 	World w;
 	Direction dir;
-	w = parseWorld("./world-load.txt");
+	w = parseWorld(worldFile);
 
 	std::string input;
 	Room* room = &w.rooms[1];
@@ -25,14 +37,16 @@ int main(int argc, char *argv[]) {
 
 	std::getline(std::cin, input);
 
+	printHelp();
+
 	while (true) {
 		std::cout << "\nYou are in " << room->name << "\n";
 		std::cout << room->description << "\n";
-		std::cout << "Exits: ";
+		std::cout << "Exits:\n";
 		for (const auto& [dir, id] : room->exits) {
 			for (const auto& [str, enum_dir] : mapping) {
 				if (enum_dir == dir) {
-					std::cout << str << " ";
+					std::cout << str << "\t(" << w.rooms.at(id).name << ")\n";
 					break;
 				}
 			}
@@ -46,10 +60,7 @@ int main(int argc, char *argv[]) {
 		}
 
 		if (input == "HELP") {
-			std::cout << "Available commands:\n";
-			std::cout << "- move with -> north, south, east, or west\n";
-			std::cout << "- help       : Show this help message\n";
-			std::cout << "- quit       : Exit the game\n";
+			printHelp();
 			continue;
 		}
 
