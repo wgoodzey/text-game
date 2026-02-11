@@ -11,7 +11,7 @@ DESC A grassy yard with a sturdy tree in the center. A wooden treehouse peeks ou
 EXIT NORTH 2 UP 4
 ```
 
-All fields are single lines (DO NOT USE NEW LINES). Fields include `ROOM`
+All fields are single lines (*DO NOT USE NEW LINES*). Fields include `ROOM`
 number (room id) `NAME`, `DESC`, and `EXIT`. For exits have the direction in
 all capital letters followed by the target room ID number. To have multiple
 exits for a room, separate with spaces.
